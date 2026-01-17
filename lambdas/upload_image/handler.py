@@ -23,7 +23,6 @@ dynamodb = boto3.resource(
     region_name="us-east-1"
 )
 
-
 table = dynamodb.Table(TABLE_NAME)
 
 
